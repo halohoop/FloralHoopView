@@ -1,5 +1,8 @@
 # FloralHoopView
 ![Demo](./Video_2017-03-23_150455.gif)
+
+* 技巧：我们都知道在使用Canvas作画的时候，后画的都会覆盖在先画的上面，那么如何实现绘制的最后几张，当和第一张图重叠的时候不盖住第一张。这是值得注意的地方。
+
 # Usage
 
 ###### 1.set the widget to your xml file;

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.halohoop.demo.floralhoopview.MainActivity">
+
+    <com.halohoop.floralhoopview.widgets.FloralHoopView
+        android:id="@+id/fhv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:item_radius="100"
+        app:item_spread_radius="150"
+        app:start_draw_angle="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="addBitmap"
+            android:text="Add Bitmap" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clearAll"
+            android:text="clearAll" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

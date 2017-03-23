@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloralHoopView">
+        <attr name="item_radius" format="float" />
+        <attr name="item_spread_radius" format="float" />
+        <attr name="start_draw_angle" format="float" />
+    </declare-styleable>
+</resources>
